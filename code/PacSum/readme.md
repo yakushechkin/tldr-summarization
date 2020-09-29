@@ -10,7 +10,7 @@ Please clone [my fork](https://github.com/yakushechkin/scitldr) of the repo.
 
 1. **[convertscitldr.py](/PacSum/convertscitldr.py)** :
 
-The raw SciTLDR data is in JSONL format, while the PacSum can only work with H5DF data. The data schema is also different and we should take this into account. This script is for SciTLDR conversion with the required schema and format.
+The raw SciTLDR data is in JSONL format, while the PacSum can only work with H5DF data. The data schema is also different and you should take this into account. This script is for SciTLDR conversion with the required schema and format.
 
 Example of use:
 ```bash
