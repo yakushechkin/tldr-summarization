@@ -10,7 +10,7 @@ The goal of this project is to reproduce the results of SciTLDR generation by st
 
 ## Project structure:
 
-- In the directory `/code**`, you may get look into fine-tuned models (PacSum, BART).
-- In the directory `/project-report**`, you will find the report with a comparative analysis of the results obtained and the benchmarks from the SciTLDR article.
+- In the directory `/code`, you may get look into fine-tuned models (PacSum, BART).
+- In the directory `/project-report`, you will find the report with a comparative analysis of the results obtained and the benchmarks from the SciTLDR article.
 
 Information about the models' details, including instructions for the models fine-tuning, testing, we have stated in a separated `readme.md` files inside each subdirectory. Additionally, take a look at the report, where the experiment implementation are discussed in detail.
