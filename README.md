@@ -1,6 +1,6 @@
 # Extreme Summarization of Scientific Documents
 
-The goal of this project is to reproduce the results of SciTLDR generation by stepwise utilizing extractive and abstractive methods and fine-tuning pre-trained models such as PacSum, BART on the SciTLDR dataset. Questions are as follows:
+The goal of this project is to reproduce the results of [SciTLDR generation](https://arxiv.org/abs/2004.15011) by stepwise utilizing extractive and abstractive methods and fine-tuning pre-trained models such as PacSum, BART on the SciTLDR dataset. Questions are as follows:
 
 - Prepare the SciTLDR data for the listed models.
 
