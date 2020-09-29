@@ -83,7 +83,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 fairseq-train scitldr/SciTLDR-Data/SciTLDR-
 
 6. Save the checkpoint file with the best results for evaluation. The name would be `checkpoint_best.pt`
 
-The Notebook: **[finetuneBART.ipynb]()** : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IVY5vRcFTvuZWPvF9h_FfBFlr1kY-54u?usp=sharing)
+The Notebook: **[finetuneBART.ipynb](https://github.com/yakushechkin/tldr-summarization/blob/master/code/BART/finetuneBART.ipynb)** : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IVY5vRcFTvuZWPvF9h_FfBFlr1kY-54u?usp=sharing)
 
 
 ## 2. Evaluate the Model
@@ -149,4 +149,4 @@ python evaluate.py SciTLDR-Data/SciTLDR-AIC/ctrl /path/to/model/dir/ --checkpoin
 ```
 
 
-The Notebook: **[evaluateBART.ipynb]()** : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PY-Ecnq6puuparAjPEFcaJAzEw4arOAn?usp=sharing)
+The Notebook: **[evaluateBART.ipynb](https://github.com/yakushechkin/tldr-summarization/blob/master/code/BART/evaluateBART.ipynb)** : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PY-Ecnq6puuparAjPEFcaJAzEw4arOAn?usp=sharing)
